@@ -9,6 +9,7 @@ export function start(minutes, seconds) {
   timer.upDateDisplay();
 
   events. registerControls();
+  events.setMinutes();
 
 }
 
